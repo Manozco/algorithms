@@ -3,7 +3,7 @@
 # @Author: Manuel VIVES
 # @Date:   2015-05-04 14:22:54
 # @Last Modified by:   Manuel VIVES
-# @Last Modified time: 2015-05-04 14:24:48
+# @Last Modified time: 2015-05-05 12:44:04
 
 
 def insertion_sort(l: list):
@@ -19,7 +19,7 @@ def bubble_sort(l: list):
     last = len(l)
     while True:
         swapped = False
-        for i in range(1, last - 1):
+        for i in range(1, last):
             if l[i - 1] > l[i]:
                 l[i], l[i-1] = l[i-1], l[i]
                 swapped = True
